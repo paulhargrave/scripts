@@ -1,0 +1,11 @@
+#! /bin/sh
+
+root_dir=`pwd`
+artists=`ls flac`
+
+for artist in $artists
+do
+  echo "Rsyncing $artist"
+  rsync -rltv --delete desktop:/multimedia/flac/$artist flac
+  echo
+done
