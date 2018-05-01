@@ -1,1 +1,1 @@
-rsync -rltvv --delete desktop:/multimedia/flac/ flac
+rsync -rltv --delete desktop:/multimedia/flac/ flac
