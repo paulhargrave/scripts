@@ -1,1 +1,1 @@
-rsync -rltv --delete desktop:/multimedia/flac /mnt/hd/flac-backup
+rsync -rltv --delete desktop:/multimedia/flac /hd
