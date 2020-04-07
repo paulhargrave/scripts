@@ -1,1 +1,1 @@
-rsync -rltv --delete desktop:/multimedia/flac /hd
+rsync -rltv --delete --progress desktop:/multimedia/flac /hd
